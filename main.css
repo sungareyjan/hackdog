@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+body{
+   /* background: url(img/bgg.jpg);
+    background-size: cover;
+    background-position: center;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#scratch{
+    position: relative;
+    width:100%;
+    height:670px;
+}
+
+.new-year h1 span{
+    display: table-cell;
+    margin: 0;
+    padding:0;   
+    animation: animate 2s linear infinite;
+}
+.new-year h1 span:nth-child(1){
+animation-delay: 0s;
+}
+.new-year h1 span:nth-child(2){
+    animation-delay: .25s;
+    }
+.new-year h1 span:nth-child(3){
+animation-delay: .50s;
+}    
+.new-year h1 span:nth-child(4){
+    animation-delay: .75s;
+    }
+.new-year h1 span:nth-child(5){
+animation-delay: 1s;
+}
+.new-year h1 span:nth-child(6){
+    animation-delay: 1.25s;
+    }
+.new-year h1 span:nth-child(7){
+animation-delay: 1.50s;
+}    
+.new-year h1 span:nth-child(8){
+    animation-delay: 1.75s;
+    }
+.new-year h1 span:nth-child(9){
+animation-delay: 2s;
+}
+.new-year h1 span:nth-child(10){
+    animation-delay: 2.25s;
+    }
+.new-year h1 span:nth-child(11){
+animation-delay: 2.50s;
+}
+.new-year h1 span:nth-child(12){
+    animation-delay: 2.75s;
+    }
+.new-year h1 span:nth-child(13){
+animation-delay: 3s;
+}
+ 
+
+.new-year h2 span{
+    display: table-cell;
+    margin: 0;
+    padding:0;   
+    animation: animate 2s linear infinite;
+}
+.new-year h2 span:nth-child(1){
+animation-delay: 0s;
+}
+.new-year h2 span:nth-child(2){
+    animation-delay: .25s;
+    }
+.new-year h2 span:nth-child(3){
+animation-delay: .50s;
+}    
+.new-year h2 span:nth-child(4){
+    animation-delay: .75s;
+    }
+.new-year h2 span:nth-child(5){
+animation-delay: 1s;
+}
+.new-year h2 span:nth-child(6){
+    animation-delay: 1.25s;
+    }
+.new-year h2 span:nth-child(7){
+animation-delay: 1.50s;
+}    
+.new-year h2 span:nth-child(8){
+    animation-delay: 1.75s;
+    }
+.new-year h2 span:nth-child(9){
+animation-delay: 2s;
+}
+.new-year h2 span:nth-child(10){
+    animation-delay: 2.25s;
+    }
+.new-year h2 span:nth-child(11){
+animation-delay: 2.50s;
+}
+.new-year h2 span:nth-child(12){
+    animation-delay: 2.75s;
+    }
+
+
+
+
+
+@keyframes animate{
+    0%,100%{
+        color:#fff;
+        filter:blur(2px);  
+        text-shadow: 0 0 10px #00b3ff;
+           
+    }
+    5%,95%{
+        color:#111;
+        filter:blur(0px);  
+        text-shadow: 0 0 10px none;
+    }
+}
+}
+.wrapper{
+width: 100%;
+
+}
+
+.img-banner{
+    display:none;
+}
+.img-info h2{
+padding: 30px 30px 20px;
+font-size: 50px;
+line-height: 44px;
+}
+.img-info p{
+    padding: 0px 30px 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.img-hacker{
+    width: 100%;
+}
+
+/*-------------*/
+.new-year h1{
+
+font-size: 40px;
+line-height: 44px;
+font-family: Narkisim;
+left: 10%;
+
+top:30%;
+position: absolute;
+}
+.new-year h2{
+ 
+    font-size: 35px;
+    line-height: 44px;
+    font-family: Narkisim;
+    left: 15%;
+ 
+  top:40%;
+    position: absolute;
+    }
+    
+
+
+/*tablet size*/
+@media only screen and (min-width:768px){
+    #scratch{
+        position: relative;
+        width:100%;
+        height: 1024px;
+    }
+.img-banner{
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .wrapper{
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-info h2{
+        padding: 20px 0px 0px;
+        color:red;
+        }
+    .img-info p{
+        padding: 20px 0px 0px;
+           
+    }
+
+    .img-hacker{
+     padding-top:30px;
+    }
+/*-------------*/
+.new-year h1{
+   
+    font-size: 70px;
+    line-height: 44px;
+    font-family: Narkisim;
+    top: 30%;
+    left: 14%;
+ 
+    position: absolute;
+    }
+    .new-year  h2{
+     
+        font-size: 60px;
+        line-height: 44px;
+        font-family: Narkisim;
+        left: 20%;
+      
+        top: 50%;
+        position: absolute;
+        }
+
+/*closing mobile size*/
+}
+/*desktop size*/
+@media only screen and (min-width:1000px){
+    #scratch{
+        position: relative;
+        width:100%;
+        height: 750px;
+    }
+    .img-banner{
+         display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .wrapper{
+        width: 1000px;   
+    }
+    .img-info p{
+        padding: 20px 0px 0px 30px;
+    }
+    .img-info h2{
+        padding: 20px 0px 0px 30px;
+        color:blue;
+    }
+    .img-info {
+        width: 50%;
+        float: right;
+    }
+    
+    .img-hacker{
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+    }
+    /*-------------*/
+    .new-year h1{
+     
+        font-size: 90px;
+        line-height: 44px;
+        font-family: Narkisim;
+        top: 28%;
+        left: 23%;
+
+        position: absolute;
+        }
+        .new-year h2{
+           
+            font-size: 80px;
+            line-height: 44px;
+            font-family: Narkisim;
+            left: 28%;
+       
+            top: 48%;
+            position: absolute;
+            }
+    /*closeing desktop size*/
+    }
+
